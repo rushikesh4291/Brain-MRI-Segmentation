@@ -1,0 +1,7 @@
+tensorFlow
+numPy
+pandas
+opencv-python
+matplotlib
+seaborn
+scikit-learn==0.22.2
