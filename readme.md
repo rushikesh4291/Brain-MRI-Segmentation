@@ -34,7 +34,7 @@ The SA-UNet model combines the standard U-Net architecture with a spatial attent
 
 This architecture ensures a comprehensive approach to segmenting MRI images, leveraging spatial attention for nuanced feature emphasis and a robust encoder-decoder structure for precise segmentation.
 
-![](images/model.png)
+
 
 ## Implementation
 The project is implemented in Python using TensorFlow and Keras in Google Colab. The detailed implementation is available in the notebook.
@@ -61,13 +61,17 @@ The model demonstrates high accuracy in segmenting brain MRI images. The binary 
 ![](images/results7.png)
 ![](images/results4.png)
 ![](images/results5.png)
+---
 
-## Citation and Contributions
+## 🧾 License & Attribution
+- Licensed under **MIT** (see `LICENSE`).  
+- Based on **suniash/brain_mri_segmentation** (MIT).
 
-- This project implements the Spatial Attention U-Net (SA-UNet) model, originally introduced in the paper ["SA-UNet: Spatial Attention U-Net for Retinal Vessel Segmentation"](https://arxiv.org/abs/2004.03696) by Changlu Guo, Márton Szemenyei, Yugen Yi, Wenle Wang, Buer Chen, Changqi Fan. 
-- Unlike the original research, this project applies the SA-UNet architecture to the LGG MRI dataset for brain MRI segmentation, exploring its capabilities in a new application area. 
-- The primary contribution of this work lies in adapting and assessing the SA-UNet model within this novel context, highlighting the model's flexibility and potential in various medical imaging scenarios. Contributions to the project are welcome. Feel free to fork, submit pull requests, or open issues for discussion.
+---
 
-## License
-This project is licensed under the MIT License.
+## 🙋 Maintainer
+**Rushikesh Chnadrakant Yeola** · IIT Kharagpur (Engineering Entrepreneurship)  
+
+> If you use or extend this work, a star ⭐ on the repo is appreciated!
+
 
